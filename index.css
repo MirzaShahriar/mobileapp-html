@@ -1,0 +1,232 @@
+:root {
+    --white:#FFFFFF;
+    --red: #FF6328;
+    --light-green: #E7F9F3;
+    --light-red:#FEECEA;
+    --light-purple: #F5EAFF;
+    --light-blue:#EAF1FF;
+    --dark-blue: #4288FF;
+    --bluesh: #F4F9FF;
+    --dak-green: #2ED566;
+    --orange: #FBB935;
+    --purple: #857CFF;
+    --dark-purple: #752CD0;
+    --main-hr-padding: 0 16vw;
+    --h2-font-size: 2.5vw;
+    --dark-grey:#575757;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+  }
+
+body {
+    letter-spacing: 1px;
+    background-color: var(--bluesh);
+}
+
+
+
+.main-contaner {
+    margin: 0;
+    min-width: 100%;
+    min-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    background-color: var(--white);
+
+
+}
+
+.header {
+    background-image: url(assets/header/header-bg.png);
+    background-repeat: no-repeat;
+    border-style: 100% auto;
+    background-position: center;
+    padding: var(--main-hr-padding);
+    height: 830px;
+    padding-top: 62px;
+
+}
+
+.header-top {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.header-top-logo {
+    height: auto;
+    display: flex;
+    align-items: center;
+
+}
+.header-top-logo .logo {
+    padding: 20px;
+}
+
+.header-top-nav {
+    display: flex;
+    align-items: center;
+    color: var(--white);
+}
+
+.header-nav-btn {
+    list-style: none;
+    margin-right: 30px;
+    cursor: pointer;
+
+}
+
+.header-nav-btn-signin {
+    list-style: none;
+    margin-left: 96px;
+    padding: 10px 30px;
+    background-color: var(--red);
+    cursor: grab;
+    min-width: 120px;
+    border-radius: 10px;
+
+}
+
+.header-intro {
+    display: flex;
+    justify-content:space-between;
+    color: var(--white);
+    margin-top: 150px;
+
+
+}
+
+.header-intro-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    justify-content: center;
+
+
+}
+
+.header-intro-text-title {
+    font-size: 3.5vw;
+    letter-spacing: 1px;
+}
+
+.header-intro-text-p {
+    font-size: 20px;
+}
+
+.header-intro-text-btns {
+    display: flex;
+    width: 260px;
+    margin-top: 60px;
+    color: var(--white);
+    align-items: center;
+}
+
+.start-btn {
+    padding: 13px 50px;
+    background-color: var(--red);
+    border-radius: 10px;
+    cursor: crosshair;
+    border: none;
+    margin-right: 20px;
+    color: var(--white);
+
+}
+
+.app-features {
+
+}
+
+.app-features-title {
+
+}
+
+.app-feature-text {
+
+}
+
+.app-features-icons {
+
+}
+
+.app-features-icon {
+
+}
+
+.app-features-icon--green {
+
+}
+
+.app-features-icon {
+
+}
+
+.app-features-icon--red {
+
+}
+
+.app-features-icon {
+
+}
+
+.app-features-icon--green {
+
+}
+
+.app-features-icon {
+
+}
+
+.app-features-icon--green {
+
+}
+
+.app-get-started {
+
+}
+
+.app-get-started-statistics {
+
+}
+
+.statistics-container {
+
+}
+
+.statistics-container--blue {
+
+}
+
+.statistics-container {
+
+}
+
+.statistics-container--green {
+
+}
+
+.statistics-container {
+
+}
+
+.statistics-container--orange {
+
+}
+
+.statistics-container {
+
+}
+
+.statistics-container--purple {
+
+}
+
